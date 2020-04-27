@@ -1,7 +1,7 @@
 package kss.springframework.beerinventoryservice.web.mappers;
 
 import kss.springframework.beerinventoryservice.domain.BeerInventory;
-import kss.springframework.beerinventoryservice.web.model.BeerInventoryDto;
+import kss.brewery.model.BeerInventoryDto;
 import org.mapstruct.Mapper;
 
 /**

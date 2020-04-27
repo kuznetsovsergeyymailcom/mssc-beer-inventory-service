@@ -1,4 +1,4 @@
-package kss.springframework.common.events;
+package kss.brewery.model.events;
 
 
 import com.fasterxml.jackson.annotation.JsonFormat;

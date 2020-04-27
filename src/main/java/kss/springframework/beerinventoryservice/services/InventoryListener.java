@@ -3,7 +3,7 @@ package kss.springframework.beerinventoryservice.services;
 import kss.springframework.beerinventoryservice.config.JMSConfig;
 import kss.springframework.beerinventoryservice.domain.BeerInventory;
 import kss.springframework.beerinventoryservice.repositories.BeerInventoryRepository;
-import kss.springframework.common.events.NewInventoryEvent;
+import kss.brewery.model.events.NewInventoryEvent;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.jms.annotation.JmsListener;

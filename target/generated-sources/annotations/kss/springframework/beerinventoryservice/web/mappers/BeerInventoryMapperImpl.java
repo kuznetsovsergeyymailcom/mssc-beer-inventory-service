@@ -1,16 +1,16 @@
 package kss.springframework.beerinventoryservice.web.mappers;
 
 import javax.annotation.processing.Generated;
+import kss.brewery.model.BeerInventoryDto;
+import kss.brewery.model.BeerInventoryDto.BeerInventoryDtoBuilder;
 import kss.springframework.beerinventoryservice.domain.BeerInventory;
 import kss.springframework.beerinventoryservice.domain.BeerInventory.BeerInventoryBuilder;
-import kss.springframework.beerinventoryservice.web.model.BeerInventoryDto;
-import kss.springframework.beerinventoryservice.web.model.BeerInventoryDto.BeerInventoryDtoBuilder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2020-04-26T22:49:08+0300",
+    date = "2020-04-27T17:52:21+0300",
     comments = "version: 1.3.1.Final, compiler: javac, environment: Java 11.0.6 (JetBrains s.r.o)"
 )
 @Component

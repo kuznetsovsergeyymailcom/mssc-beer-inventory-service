@@ -2,7 +2,7 @@ package kss.springframework.beerinventoryservice.web.controllers;
 
 import kss.springframework.beerinventoryservice.repositories.BeerInventoryRepository;
 import kss.springframework.beerinventoryservice.web.mappers.BeerInventoryMapper;
-import kss.springframework.beerinventoryservice.web.model.BeerInventoryDto;
+import kss.brewery.model.BeerInventoryDto;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
